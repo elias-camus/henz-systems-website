@@ -10,14 +10,14 @@ export const en = {
   hero: {
     title: "Philosophy, Engineered.",
     subtitle:
-      "We design and improve operational foundations across industries, centered on reservation systems, website operations, and AI agent deployment.",
+      "From a proprietary OS to business systems, AI agents, and crypto trading infrastructure, we build the technical core of ambitious operations.",
     cta: "View Cases",
   },
   about: {
     label: "About",
     title: "What is henz.systems",
     description:
-      "henz.systems is a team that designs, builds, and improves the systems behind business operations. We support a wide range of clients across industries, from reservation flows and website maintenance to AI-driven workflow automation.",
+      "henz.systems is a team that conceives and builds the systems at the core of business operations. Our work spans proprietary OS R&D, reservation flows, website operations, AI agent deployment, and crypto trading infrastructure.",
     vision: {
       title: "Vision",
       description:
@@ -29,19 +29,24 @@ export const en = {
     title: "What We Do",
     items: [
       {
+        title: "henzOS",
+        description:
+          "Our proprietary OS R&D project. We are designing a computing environment that expands human cognition and interaction while preserving practical utility.",
+      },
+      {
         title: "Reservation and Business Systems",
         description:
           "We define requirements, design, and implement systems tied directly to operations, including reservations, customer data flows, notifications, and internal workflows.",
       },
       {
+        title: "Crypto Trading Infrastructure",
+        description:
+          "We build trading systems that include market data ingestion, strategy execution, monitoring, and operational tooling, with a focus on speed and reliability.",
+      },
+      {
         title: "Website Maintenance and Operations",
         description:
           "We continuously support live websites with updates, incident response, small improvements, and performance tuning so they remain dependable business assets.",
-      },
-      {
-        title: "AI Agent Integration",
-        description:
-          "We support the full path from agent design to operation, embedding AI into practical workflows such as reservation management and first-line inquiry handling.",
       },
     ],
   },
@@ -50,21 +55,21 @@ export const en = {
     title: "Selected Work",
     items: [
       {
-        title: "WANGUN OG / Reservation System",
+        title: "henzOS / Proprietary OS R&D",
         description:
-          "Designed and implemented a reservation system tailored to the client's operating flow, reducing friction in day-to-day handling.",
-        tag: "Deployed",
+          "An ongoing operating-system project that integrates philosophical intent with practical interface and systems design.",
+        tag: "R&D",
       },
       {
-        title: "WANGUN OG / Website Maintenance",
+        title: "Crypto Trading Infrastructure",
         description:
-          "Provided ongoing maintenance and operational support for the website, keeping updates and small improvements aligned with the business.",
-        tag: "Live",
+          "Built a trading foundation covering market data processing, execution logic, and monitoring, designed for continuous operation.",
+        tag: "Delivered",
       },
       {
-        title: "WANGUN OG / AI Agent for Reservations",
+        title: "WANGUN OG / Reservation and Operations",
         description:
-          "Introduced an AI-agent-based reservation workflow to reduce manual triage and improve operational efficiency.",
+          "Supported reservation system development, website maintenance, and AI-assisted reservation operations as one connected operational improvement effort.",
         tag: "Live",
       },
     ],
@@ -85,7 +90,7 @@ export const en = {
     label: "Contact",
     title: "Get in Touch",
     description:
-      "We work with clients across industries on reservation flows, website operations, and AI adoption. It is fine if your requirements are still rough.",
+      "We work across industries on proprietary products, business systems, website operations, and AI adoption. It is fine if your requirements are still rough.",
     email: "contact@henz.systems",
     blog: "blog.henz.systems",
     note: "Sharing your current issue, timeline, and project scope helps us respond faster.",
