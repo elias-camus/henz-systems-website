@@ -7,17 +7,17 @@ export const metadata: Metadata = {
   description:
     "We build and improve business foundations across industries, from reservation systems and website operations to AI agent deployment.",
   alternates: {
-    canonical: "https://henz.systems/en",
+    canonical: "https://henz.systems/en/",
     languages: {
-      ja: "https://henz.systems/ja",
-      en: "https://henz.systems/en",
+      ja: "https://henz.systems/ja/",
+      en: "https://henz.systems/en/",
     },
   },
   openGraph: {
     title: "henz.systems",
     description:
       "We build and improve business foundations across industries, from reservation systems and website operations to AI agent deployment.",
-    url: "https://henz.systems/en",
+    url: "https://henz.systems/en/",
     siteName: "henz.systems",
     locale: "en_US",
     type: "website",

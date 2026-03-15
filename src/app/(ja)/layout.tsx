@@ -7,17 +7,17 @@ export const metadata: Metadata = {
   description:
     "予約システム、Web保守運用、AIエージェント導入を中心に、業界横断で事業基盤を構築・改善する。",
   alternates: {
-    canonical: "https://henz.systems/ja",
+    canonical: "https://henz.systems/ja/",
     languages: {
-      ja: "https://henz.systems/ja",
-      en: "https://henz.systems/en",
+      ja: "https://henz.systems/ja/",
+      en: "https://henz.systems/en/",
     },
   },
   openGraph: {
     title: "henz.systems",
     description:
       "予約システム、Web保守運用、AIエージェント導入を中心に、業界横断で事業基盤を構築・改善する。",
-    url: "https://henz.systems/ja",
+    url: "https://henz.systems/ja/",
     siteName: "henz.systems",
     locale: "ja_JP",
     type: "website",
