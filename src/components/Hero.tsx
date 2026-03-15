@@ -50,7 +50,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.a
-          href="#about"
+          href="#works"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.0 }}

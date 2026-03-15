@@ -10,18 +10,18 @@ export const en = {
   hero: {
     title: "Philosophy, Engineered.",
     subtitle:
-      "At the intersection of technology and philosophy, we build systems that extend human potential.",
-    cta: "Learn More",
+      "We design and improve operational foundations across industries, centered on reservation systems, website operations, and AI agent deployment.",
+    cta: "View Cases",
   },
   about: {
     label: "About",
     title: "What is henz.systems",
     description:
-      "henz.systems is a team operating at the intersection of technology, AI, and philosophy. Unconstrained by conventional frameworks, we design and develop systems that extend human intelligence and consciousness.",
+      "henz.systems is a team that designs, builds, and improves the systems behind business operations. We support a wide range of clients across industries, from reservation flows and website maintenance to AI-driven workflow automation.",
     vision: {
       title: "Vision",
       description:
-        "Our long-term vision is to build systems that project the essence of self into digital space, making it ubiquitous across the world. Through the fusion of philosophical inquiry and engineering, we explore new relationships between consciousness and technology.",
+        "In the short term, we focus on shipping systems that work in the field. In the long term, we explore software that augments human judgment and cognition, without separating philosophical intent from operational usefulness.",
     },
   },
   services: {
@@ -29,43 +29,43 @@ export const en = {
     title: "What We Do",
     items: [
       {
-        title: "henzOS",
+        title: "Reservation and Business Systems",
         description:
-          "A proprietary operating system that balances efficiency with philosophical design. Providing the next generation of computing environments.",
+          "We define requirements, design, and implement systems tied directly to operations, including reservations, customer data flows, notifications, and internal workflows.",
       },
       {
-        title: "Custom Development",
+        title: "Website Maintenance and Operations",
         description:
-          "Reservation systems, trading bots, business automation — we architect and build core business systems from scratch.",
+          "We continuously support live websites with updates, incident response, small improvements, and performance tuning so they remain dependable business assets.",
       },
       {
         title: "AI Agent Integration",
         description:
-          "Comprehensive support for AI adoption in organizations — from agent design and implementation to workflow automation and decision support.",
+          "We support the full path from agent design to operation, embedding AI into practical workflows such as reservation management and first-line inquiry handling.",
       },
     ],
   },
   works: {
     label: "Works",
-    title: "Projects",
+    title: "Selected Work",
     items: [
       {
-        title: "henzOS",
+        title: "WANGUN OG / Reservation System",
         description:
-          "A proprietary OS integrating philosophy and technology. R&D on interfaces that extend human cognitive processes.",
-        tag: "In Development",
+          "Designed and implemented a reservation system tailored to the client's operating flow, reducing friction in day-to-day handling.",
+        tag: "Deployed",
       },
       {
-        title: "Business Automation Platform",
+        title: "WANGUN OG / Website Maintenance",
         description:
-          "An integrated platform for reservation management, customer service, and data processing. Deployed across multiple industries.",
-        tag: "Production",
+          "Provided ongoing maintenance and operational support for the website, keeping updates and small improvements aligned with the business.",
+        tag: "Live",
       },
       {
-        title: "Crypto Trading Bot",
+        title: "WANGUN OG / AI Agent for Reservations",
         description:
-          "A trading system performing real-time market analysis and automated execution. Designed for high availability and low latency.",
-        tag: "Production",
+          "Introduced an AI-agent-based reservation workflow to reduce manual triage and improve operational efficiency.",
+        tag: "Live",
       },
     ],
   },
@@ -84,9 +84,11 @@ export const en = {
   contact: {
     label: "Contact",
     title: "Get in Touch",
-    description: "Feel free to reach out about project consultations or collaboration opportunities.",
+    description:
+      "We work with clients across industries on reservation flows, website operations, and AI adoption. It is fine if your requirements are still rough.",
     email: "contact@henz.systems",
     blog: "blog.henz.systems",
+    note: "Sharing your current issue, timeline, and project scope helps us respond faster.",
   },
   footer: {
     copyright: "henz.systems",

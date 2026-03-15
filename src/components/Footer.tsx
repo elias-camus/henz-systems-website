@@ -18,13 +18,13 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="font-mono text-xs text-text-muted hover:text-text-secondary transition-colors"
           >
-            Blog
+            {t.nav.blog}
           </a>
           <a
             href={`mailto:${t.contact.email}`}
             className="font-mono text-xs text-text-muted hover:text-text-secondary transition-colors"
           >
-            Contact
+            {t.nav.contact}
           </a>
         </div>
       </div>

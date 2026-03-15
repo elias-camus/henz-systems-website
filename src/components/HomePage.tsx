@@ -1,5 +1,3 @@
-"use client";
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -8,10 +6,12 @@ import Works from "@/components/Works";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { LanguageProvider } from "@/context/LanguageContext";
+import type { Lang } from "@/i18n";
 
-export default function Home() {
+export default function HomePage({ lang }: { lang: Lang }) {
   return (
-    <>
+    <LanguageProvider lang={lang}>
       <Header />
       <main>
         <Hero />
@@ -31,6 +31,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   );
 }

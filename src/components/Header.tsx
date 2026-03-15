@@ -35,7 +35,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
-        <a href="#" className="font-mono text-sm tracking-widest text-text-primary">
+        <a href={`/${lang}`} className="font-mono text-sm tracking-widest text-text-primary">
           henz.systems
         </a>
 
@@ -78,6 +78,8 @@ export default function Header() {
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-text-primary"
             aria-label="Menu"
+            aria-expanded={menuOpen}
+            aria-controls="mobile-navigation"
           >
             <svg
               width="24"
@@ -101,6 +103,7 @@ export default function Header() {
       <AnimatePresence>
         {menuOpen && (
           <motion.nav
+            id="mobile-navigation"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
@@ -121,6 +124,7 @@ export default function Header() {
                 href="https://blog.henz.systems"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => setMenuOpen(false)}
                 className="text-sm text-text-secondary hover:text-text-primary transition-colors"
               >
                 {t.nav.blog}

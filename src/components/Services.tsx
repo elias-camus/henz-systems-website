@@ -7,7 +7,7 @@ export default function Services() {
   const { t } = useLang();
 
   return (
-    <section id="services" className="py-32 px-6">
+    <section id="services" className="scroll-mt-28 py-32 px-6">
       <div className="max-w-4xl mx-auto">
         <SectionReveal>
           <p className="font-mono text-xs tracking-[0.3em] text-text-muted mb-4 uppercase">

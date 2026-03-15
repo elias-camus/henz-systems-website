@@ -7,7 +7,7 @@ export default function Contact() {
   const { t } = useLang();
 
   return (
-    <section id="contact" className="py-32 px-6">
+    <section id="contact" className="scroll-mt-28 py-32 px-6">
       <div className="max-w-4xl mx-auto">
         <SectionReveal>
           <p className="font-mono text-xs tracking-[0.3em] text-text-muted mb-4 uppercase">
@@ -64,6 +64,12 @@ export default function Contact() {
               {t.contact.blog}
             </a>
           </div>
+        </SectionReveal>
+
+        <SectionReveal delay={0.3}>
+          <p className="mt-6 text-sm text-text-muted max-w-2xl leading-relaxed">
+            {t.contact.note}
+          </p>
         </SectionReveal>
       </div>
     </section>

@@ -1,6 +1,7 @@
 "use client";
 
-import { createContext, useContext, useState, useCallback, ReactNode } from "react";
+import { createContext, useContext, ReactNode } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { ja, en, Lang, Translations } from "@/i18n";
 
 const translations: Record<Lang, Translations> = { ja, en };
@@ -17,12 +18,22 @@ const LanguageContext = createContext<LanguageContextType>({
   toggleLang: () => {},
 });
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>("ja");
-  const toggleLang = useCallback(() => {
-    setLang((prev) => (prev === "ja" ? "en" : "ja"));
-  }, []);
+export function LanguageProvider({
+  children,
+  lang,
+}: {
+  children: ReactNode;
+  lang: Lang;
+}) {
+  const router = useRouter();
+  const pathname = usePathname();
   const t = translations[lang];
+  const toggleLang = () => {
+    const nextLang = lang === "ja" ? "en" : "ja";
+    const nextPath = pathname.replace(/^\/(ja|en)/, `/${nextLang}`);
+
+    router.push(nextPath);
+  };
 
   return (
     <LanguageContext.Provider value={{ lang, t, toggleLang }}>
